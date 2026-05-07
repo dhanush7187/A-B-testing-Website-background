@@ -50,13 +50,31 @@ This project presents an end-to-end A/B testing analysis conducted on a dataset 
 
 ---
 
-## Key Results  
-- Conversion Rate increased from **5.40% → 14.07% (~160% uplift)**  
-- Highly significant statistical result:
-  - **p-value: 6.57e-25**  
+## Key Results
+
+- Conversion Rate increased from **5.40% → 14.07%** (**~160% uplift**)
+
+- Highly significant statistical results:
+  - **Overall p-value:** `6.57e-25`
+  - **Desktop p-value:** `2.16e-11`
+  - **Mobile p-value:** `5.27e-15`
+
 - No significant change observed in:
-  - Time Spent  
-  - Page Views  
+  - **Time Spent**
+    - Overall: `0.64`
+    - Desktop: `0.98`
+    - Mobile: `0.53`
+  
+  - **Page Views**
+    - Overall: `0.44`
+    - Desktop: `0.89`
+    - Mobile: `0.21`
+
+## Conclusion
+
+The **black background (Group B)** significantly improved conversion rates across **all device types** without negatively impacting user engagement metrics.
+
+**Recommendation:** Deploy the black background design for all users.  
 
 ---
 
